@@ -1,0 +1,23 @@
+program sum;
+var
+  N: integer;
+  R: real;
+  S: real;
+  H: real;
+  K: integer;
+  V: real;
+begin 
+  writeln('Введите N');
+  readln(N);
+  writeln('Введите R');
+  readln(R);
+  S:=0;
+    for k:=0 to N do
+      begin 
+        H:=10+K;
+        V:=H*H*(R-(H/3));
+        S:=S+V;
+      end;
+  writeln(S);
+  readln;
+end.
